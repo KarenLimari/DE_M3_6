@@ -39,8 +39,4 @@ def modificar_ingredientes(ingredientes):
         else:
             print("Opción no váida. Intenta de nuevo")
 
-            return ingredientes
-
-
-ingredientes = ["Queso"]
-modificar_ingredientes(ingredientes)
+    return ingredientes

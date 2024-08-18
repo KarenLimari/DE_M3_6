@@ -5,9 +5,15 @@ from calcular_tiempo import calcular_tiempo
 from mostrar_ingredientes import mostrar_ingredientes
 
 def pedidopizza():
-    """Summary: Esta función, permite al cliente realizar un pedido de PizzaJat. Los usuario eligen la masa, salsa e ingredeintes de la pizza y luego pueden confirmar o cancelar el pedido.
-    Parámetros: No tiene, porque interactúa con el cliente a través de entradas de la consola.
-    Returns: Esta función no retorna valor, ya que improme los resultados del pedido y mensajes al cliente.
+    """Esta función, permite al usuario realizar un pedido de PizzaJat. El usuario eligen la masa, salsa e ingredientes de la pizza y luego pueden confirmar o cancelar el pedido.
+    Parámetros
+    ----------
+        None
+            No tiene, porque interactúa con el cliente a través de entradas de la consola.
+    Returns
+    -------
+        None
+            Esta función no retorna valor, ya que imprime los resultados del pedido y mensajes al cliente.
     """
     while True:
         print("\n----Bienvenido a Pizza JAT----")

@@ -1,4 +1,15 @@
 def elegir_salsa():
+    """
+    Permite al usuario elegir el tipo de salsa para su pizza.
+    Parámetros:
+    -----------
+    None
+            Esta función no tiene parámetros, ya que interactúa con el usuario a través de la consola.
+    Returns:
+    --------
+    str
+        El tipo de salsa seleccionada por el usuario.
+    """
     while True:
         print("\nElige el tipo de salsa que quieres para tu pizza: ")
         print("1.Salsa de tomate")
@@ -16,4 +27,5 @@ def elegir_salsa():
         elif eleccion == "4":
             return "Salsa Pesto"
         else:
+            # Si el usuario ingresa otro número diferente a 1,2 o 3, muestra un mensaje de error y le volverá a solicitar la elección.
             print("Número no válido, por favor ingresa 1,2 o 3")

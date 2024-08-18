@@ -1,11 +1,11 @@
 def calcular_tiempo(ingredientes):
     """
     Permite calcular el tiempo de preparación de la pizza basado en la cantidad de ingredientes.
-    Parámetros:
+    Parámetros
     -----------
-    ingredientes: list
+    ingredientes list
         Lista de ingredientes de la pizza. Cada ingrediente adicional suma 2 minutos.
-    Returns:
+    Returns
     --------
     int
         El tiempo total estimado en minutos de preparación de la pizza.

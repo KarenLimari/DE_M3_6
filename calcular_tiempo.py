@@ -4,7 +4,7 @@ def calcular_tiempo(ingredientes):
     Parámetros:
     -----------
     ingredientes: list
-        Lista de ingredeintes de la pizza. Cada ingrediente adicional suma 2 minutos.
+        Lista de ingredientes de la pizza. Cada ingrediente adicional suma 2 minutos.
     Returns:
     --------
     int
